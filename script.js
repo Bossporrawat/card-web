@@ -12,7 +12,8 @@ function getRandomCard(numCards) {
         console.log(`Random Card ${i + 1}: ${selectedRank}${selectedSuit}`);
     }
 }
-const fs = require('fs');
+// ในไฟล์ script.js
+import fs from 'fs';
 
 // ข้อมูลที่คุณต้องการเพิ่ม
 const newData = {
